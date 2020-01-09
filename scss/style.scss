@@ -53,3 +53,8 @@ label {
 label:not(:last-of-type) {
     margin-right: 1ch;
 }
+@media only screen and (max-width: 376px) {
+    label {
+        min-width: 100%;
+    }
+}
